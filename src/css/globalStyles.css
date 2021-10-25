@@ -1,0 +1,40 @@
+:root {
+   --red: #a30036;
+   --blue: #0e1218;
+   --gold: #dbb152;
+   --white: #fbfbfb;
+   --black: #111;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 16px;
+   font-family: 'Rubik', sans-serif;
+   scroll-behavior: smooth;
+   text-rendering: optimizeLegibility;
+   overflow-x: hidden;
+}
+
+body {
+   width: 100%;
+   background-color: var(--blue);
+}
+
+a {
+   text-decoration: none;
+   color: var(--white);
+}
+
+ul, li {
+   list-style: none;
+}
+
+.container {
+   max-width: 100%;
+   height: 100%;
+}
