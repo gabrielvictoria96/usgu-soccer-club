@@ -14,7 +14,7 @@
    justify-content: space-around;
    align-items: center;
    padding: 20px;
-   transition: 200ms linear;
+   transition: 200ms ease-in-out;
 
 }
 
@@ -24,7 +24,7 @@
    background-color: var(--blue);
    box-shadow: 1 1 10px rgba(0, 0, 0, 1);
    z-index: 999;
-   transition: 200ms linear;
+   transition: 200ms ease-in-out;
 }
 
 .logo {
