@@ -14,17 +14,15 @@
    justify-content: space-around;
    align-items: center;
    padding: 20px;
-   transition: 200ms ease-in-out;
-
+   position: fixed;
+   top: 0;
+   transition: 300ms ease;
 }
 
 .sticky {
-   position: fixed;
-   position: -webkit-fixed;
-   top: 0;
+   transition: 300ms ease;
    background-color: var(--blue);
    z-index: 999;
-   transition: 200ms ease-in-out;
 }
 
 .logo {
