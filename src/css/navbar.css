@@ -5,6 +5,7 @@
    background-image: linear-gradient(#0e1218a1, #0e1218a1), url(../img/imagem13.jpg);
    background-position: center center;
    background-size: cover;   
+   position: relative;
 }
 
 .navbar {
@@ -14,16 +15,16 @@
    justify-content: space-around;
    align-items: center;
    padding: 20px;
-   position: fixed;
-   top: 0;
-   transition: 300ms ease;
+   transition: 900ms ease;
 
 }
 
 .sticky {
-   transition: 300ms ease;
+   transition: 900ms ease;
    background-color: var(--blue);
    z-index: 999;
+   position: fixed;
+   top: 0;
 }
 
 .logo {
