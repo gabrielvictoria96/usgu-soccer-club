@@ -12,5 +12,5 @@ function openLinks() {
 window.addEventListener('scroll', () => {
    const stickNav = document.querySelector(".navbar");
 
-   stickNav.classList.toggle("sticky", window.scrollY > 0);
+   stickNav.classList.toggle("sticky", window.scrollY > 200);
 })

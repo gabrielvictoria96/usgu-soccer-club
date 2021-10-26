@@ -14,13 +14,14 @@
    justify-content: space-around;
    align-items: center;
    padding: 20px;
+   position: fixed;
+   top: 0;
+   transition: 300ms ease;
 
 }
 
 .sticky {
-   position: fixed;
-   position: -webkit-fixed;
-   top: 0;
+   transition: 300ms ease;
    background-color: var(--blue);
    z-index: 999;
 }

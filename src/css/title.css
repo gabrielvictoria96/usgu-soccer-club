@@ -6,7 +6,7 @@
    flex-wrap: wrap;
 
    margin: 0 auto;
-   margin-top: 150px;
+   margin-top: 250px;
 }
 
 .title h1 {
@@ -62,10 +62,7 @@
 }
 
 @media only screen and (max-width: 930px) {
-   .title {
-      margin-top: 90px;
-   }
-
+   
    .title h1 {
       font-size: 3rem;
    }
