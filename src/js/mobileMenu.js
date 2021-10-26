@@ -10,7 +10,7 @@ function openLinks() {
 }
 
 window.addEventListener('scroll', () => {
-   const stickNav = document.querySelector(".navbar");
+   const pageUp = document.querySelector(".page_up");
 
-   stickNav.classList.toggle("sticky", window.scrollY > 800);
+   pageUp.classList.toggle("sticky", window.scrollY > 600);
 })
